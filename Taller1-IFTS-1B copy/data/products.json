@@ -1,0 +1,78 @@
+[
+  "Dulce" : {
+      {
+         "producId": 1,
+         "name": "Medialuna de Manteca",
+         "type": "D",
+         "priceUnity": 50
+      },
+      {
+         "producId": 2,
+         "name": "Factura de membrillo",
+         "type": "D",
+         "priceUnity": 70
+      },
+      {
+         "producId": 3,
+         "name": "Factura de pastelera",
+         "type": "D",
+         "priceUnity": 70
+      },
+      {
+         "producId": 4,
+         "name": "Conito de DDLL",
+         "type": "D",
+         "priceUnity": 60
+      },
+      {
+         "producId": 5,
+         "name": "Alfajor DDLL - chocolate negro",
+         "type": "D",
+         "priceUnity": 50
+      },
+      {
+         "producId": 6,
+         "name": "Alfajor DDLL - chocolate blanco",
+         "type": "D",
+         "priceUnity": 50
+      },
+      {
+         "producId": 7,
+         "name": "Alfajor pasta de mani - chocolate blanco",
+         "type": "D",
+         "priceUnity": 50
+      },
+      {
+         "producId": 8,
+         "name": "Alfajor pasta de mani - chocolate negro",
+         "type": "D",
+         "priceUnity": 50
+      }
+   },
+   "Sala3": {
+       {
+          "producId": 9,
+          "name": "Pizzeta - Muzzarella",
+          "type": "S",
+          "priceUnity": 50
+       },
+       {
+          "producId": 10,
+          "name": "Empana3 - Carne",
+          "type": "S",
+          "priceUnity": 50
+       },
+       {
+          "producId": 11,
+          "name": "Empana3 - Pollo",
+          "type": "S",
+          "priceUnity": 50
+       },
+       {
+          "producId": 12,
+          "name": "Pan",
+          "type": "S",
+          "priceUnity": 100,
+       }
+   }
+]
