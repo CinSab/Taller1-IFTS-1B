@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./deco/stylos3.css">
+
+  <!-- CSS only -->
+  <title>MyP</title>
+</head>
+<body>
+<div class="container">
+
+	<header>
+      <div class="nav-main">
+        <div class="nav-header">
+          <a href="index.html"><img class="logo" src="./deco/myp.svg" alt="M&P"></a>
+          <i class="fas fa-bars"></i>
+        </div>
+
+      <ul class = "menu2 menu3">
+        <li><a href="#D">Dulces</a></li>
+        <li><a href="#S">Sala3</a></li>
+        <li><a href="#">Sobre noso3</a></li>
+        <li><a href="#C">Contacto</a></li>
+      </ul>
+  </div>
+	</header>
+
+  <div class="sidebar">
+  	  <!-- <nav> -->
+      <div class="sidebar-header">
+        <img class="logo2" src="./deco/myp.svg" alt="M&P">
+        <i class="far fa-times-circle" aria-hidden="true"></i>
+      </div>
+  		<ul class = "menu menu3">
+  			<li><a href="#dulce">Dulces</a></li>
+  			<li><a href="#sala3">Sala3</a></li>
+  			<li><a href="#">Sobre noso3</a></li>
+        <li><a href="#">Contacto</a></li>
+  		</ul>
+  	<!-- </nav> -->
+  </div>
+
+      <section>
+        <h2 id='D'>Dulces</h2>
+        <div id="dulce">
+        </div>
+
+      	</section>
+
+        <section>
+          <h2 id="S">Salados</h2>
+            <div id="sala3">
+
+            </div>
+        	</section>
+          <section>
+            <h2>Sobre noso3</h2>
+            <p>Empezamos cocinando para la familia por necesidades de salud; empezar fue engorroso, muchas negaciones y falta de practica a la hora de amasar <img class="sintacc"src="./deco/sintacc.png" alt="sin T.A.C.C">, cuando nos dimos cuenta nuestras recetas eran mas que deliciosas, aportando todo el amor en cada cocción.
+            Así como esperamos que mi familia sea feliz, pudiendo comer cosas ricas, con harinas aptas, queremos compartir esas mismas sensaciones con vos!</p>
+          <img class="flyer"src="./deco/flyer.jpeg" alt="products">
+          	</section>
+
+          <aside>
+
+              <form action="contacForm">
+                <h2>Escribinos:</h2>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="name" name="name" placeholder="Nombre"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Email"><br>
+                <label for="tel">Teléfono o Celular:</label><br>
+                <input type="tel" name="tel" placeholder="Número"><br>
+                <label for="typeConsulta">Tipo de mensaje:</label><br>
+                  <select class="reason" name="reason">
+                    <option value="R-C">Consulta</option>
+                    <option value="R-P">Pedido</option>
+                    <option value="R-A">Ayuda</option>
+                  </select><br>
+                  <label for="text">Mensaje:</label><br>
+                  <textarea name="text" rows="4" cols="28"></textarea><br>
+                  <input type="submit"><br>
+                    <button class="subir"ype="button" name="button"><a href="index.html">Subir</a></button>
+              </form>
+
+          </aside>
+
+
+
+
+
+
+    	<footer id='C'>
+    		<a href="https://www.facebook.com/MyPmerlosintacc">Encontranos en Facebook!</a>
+    	</footer>
+    </div>
+
+<script type="text/javascript" src="app.js">
+
+</script>
+</body>
+</html>
